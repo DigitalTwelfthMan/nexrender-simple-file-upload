@@ -1,6 +1,6 @@
 {
   "name": "nexrender-simple-file-upload",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A basic nexrender module to upload videos to a web server via api passed in render request json",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
   "author": "digitaltwelfthman",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.25.0"
+    "axios": "^0.25.0",
+    "form-data": "^4.0.0"
   },
   "repository": {
     "type": "git",
