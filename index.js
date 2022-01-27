@@ -32,6 +32,8 @@ module.exports = (job, settings, {input, url}, type) => {
     axios
         .post(url, data, {
             headers: data.getHeaders(),
+            maxContentLength: 100000000,
+            maxBodyLength: 1000000000
           } 
         )
         .then(res => {
